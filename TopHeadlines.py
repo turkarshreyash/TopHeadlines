@@ -8,7 +8,7 @@ class TopHeadlines:
    
     @staticmethod
     def api_call(country, category):
-        api_key = "13b10238f15a4da8a43aedada799b8e6"
+        api_key = "*********************************"
         url = 'https://newsapi.org/v2/top-headlines?country='+country+'&category='+category+'&apiKey='+api_key
         try:
             response = get(url)
